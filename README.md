@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Weather Forecast
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Image alt](https://github.com/Webfre/todo-list/blob/main/src/assets/todolist.png)
 
-## Available Scripts
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=webfre&label=Profile%20views&color=0e75b6&style=flat" alt="webfre" /> </p>
 
-In the project directory, you can run:
+Weather Forecast - weather app with hourly and daily forecast.
 
-### `npm start`
+- Single-page application;
+- Responsive and fully adaptive;
+- The project uses an open <a href="https://openweathermap.org/" target='_blank'>API</a>;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href="https://webfre.github.io/todo-list/" target="_blank">Follow the link 👁</a>
 
-### `npm test`
+## Tech
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Todo List uses a number of open source projects to work properly:
 
-### `npm run build`
+- [react] - React is an open source JavaScript library for creating external user interfaces.
+- [react-toastify] - React-Toastify allows you to add notifications to your app with ease. No more nonsense!
+- [web-vitals] - The library is a tiny (~1.5K, brotli'd), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Search Console's Speed Report).
+- [luxon] - Library for working with dates and times in JavaScript.
+- [ESlint] - ESLint is a tool that helps you analyze JavaScript code, find syntax errors and automatically correct them, write neat code in a uniform style according to certain rules.
+- [Prettier] - Prettier is a code formatting tool that aims to use hard—coded rules for the design of programs. It formats the code automatically.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Weather Forecast requires [Node.js](https://nodejs.org/) v16+ to run.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you don't know your version, you can check it with the command in the [node -v] terminal.
 
-### `npm run eject`
+In order to install the project locally, you will need:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+git clone https://github.com/Webfre/todo-list.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+cd weather-app
+npm start or yarn start
+```
