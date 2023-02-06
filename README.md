@@ -12,7 +12,7 @@ Weather Forecast - weather app with hourly and daily forecast.
 
 ## Preview
 
-<a href="https://webfre.github.io/todo-list/" target="_blank">Follow the link 👁</a>
+<a href="https://webfre.github.io/travel-tour/" target="_blank">Follow the link 👁</a>
 
 ## Tech
 
