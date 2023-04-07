@@ -40,6 +40,7 @@ git clone https://github.com/Webfre/weather-forecast.git
 Start the project:
 
 ```sh
+npm install
 cd weather-app
 npm start or yarn start
 ```
